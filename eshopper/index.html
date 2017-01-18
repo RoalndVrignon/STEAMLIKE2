@@ -16,7 +16,7 @@
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
-    <![endif]-->       
+    <![endif]-->
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
@@ -25,7 +25,7 @@
 </head><!--/head-->
 
 <body>
-	<header id="header"><!--header-->		
+	<header id="header"><!--header-->
 		<div class="header-middle"><!--header-middle-->
 			<div class="container">
 				<div class="row">
@@ -41,15 +41,32 @@
 							<ul class="nav navbar-nav">
 								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
 								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Panier</a></li>
+<<<<<<< HEAD
 								<li><a href="connexion.html"><i class="fa fa-sign-in"></i>  Connexion</a></li>
 								<li><a href="inscription.html"><i class="fa fa-sign-in"></i>  Inscription</a></li>
 							</ul>
+=======
+								 <li class="dropdown">
+						                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						                        <i class="fa fa-lock"></i>Login</a>
+						                    <ul class="dropdown-menu dropdown-user">
+						                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+						                        </li>
+						                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+						                        </li>
+						                        <li class="divider"></li>
+						                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+						                        </li>
+						                    </ul>
+						                </li>
+						          </ul>
+>>>>>>> Roland
 						</div>
 					</div>
 				</div>
 			</div>
 		</div><!--/header-middle-->
-	
+
 		<div class="header-bottom"><!--header-bottom-->
 			<div class="container">
 				<div class="row">
@@ -65,6 +82,17 @@
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
 								<li><a href="index.html" class="active">Home</a></li>
+<<<<<<< HEAD
+=======
+								<li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="shop.html">Products</a></li>
+										<li><a href="product-details.html">Product Details</a></li>
+										<li><a href="checkout.html">Checkout</a></li>
+										<li><a href="cart.html">Panier</a></li>
+                                    </ul>
+                                </li>
+>>>>>>> Roland
 							</ul>
 						</div>
 					</div>
@@ -77,9 +105,9 @@
 			</div>
 		</div><!--/header-bottom-->
 	</header><!--/header-->
-	
+
 	<section id="slider"><!--slider-->
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-12">
 					<div id="slider-carousel" class="carousel slide" data-ride="carousel">
@@ -88,48 +116,31 @@
 							<li data-target="#slider-carousel" data-slide-to="1"></li>
 							<li data-target="#slider-carousel" data-slide-to="2"></li>
 						</ol>
-						
+
 						<div class="carousel-inner">
 							<div class="item active">
-								<div class="col-sm-6">
-									<h1><span>E</span>-STEAM-LIKE</h1>
-									<h2>Game</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-								<div class="col-sm-6">
-									<img src="images/home/im1.jpg" class="girl img-responsive" alt="" />
-									
+								<div class="col-sm-12 text-center">
+									<img src="images/home/fifa.jpg" class="girl img-responsive" alt="" />
+
 								</div>
 							</div>
+
 							<div class="item">
-								<div class="col-sm-6">
-									<h1><span>E</span>-STEAM-LIKE</h1>
-									<h2>100% Responsive Design</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-								<div class="col-sm-6">
-									<img src="images/home/im2.jpg" class="girl img-responsive" alt="" />
-									
+                <div class="col-sm-12 text-center">
+									<img src="images/home/cod.jpg" class="girl img-responsive" alt="" />
+
 								</div>
 							</div>
-							
+
 							<div class="item">
-								<div class="col-sm-6">
-									<h1><span>E</span>-STEAM-LIKE</h1>
-									<h2>Free Ecommerce Template</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-								<div class="col-sm-6">
-									<img src="images/home/im.jpg" class="girl img-responsive" alt="" />
-									
+                <div class="col-sm-12 text-center">
+									<img src="images/home/poke.jpg" class="girl img-responsive" alt="" />
+
 								</div>
 							</div>
-							
+
 						</div>
-						
+
 						<a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
 							<i class="fa fa-angle-left"></i>
 						</a>
@@ -137,12 +148,12 @@
 							<i class="fa fa-angle-right"></i>
 						</a>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
 	</section><!--/slider-->
-	
+
 	<section>
 		<div class="container">
 			<div class="row">
@@ -162,11 +173,13 @@
 								<div id="sportswear" class="panel-collapse collapse">
 									<div class="panel-body">
 										<ul>
-											<li><a href="#">Nike </a></li>
-											<li><a href="#">Under Armour </a></li>
-											<li><a href="#">Adidas </a></li>
-											<li><a href="#">Puma</a></li>
-											<li><a href="#">ASICS </a></li>
+											<li><a href="#">Action </a></li>
+											<li><a href="#">Aventure </a></li>
+											<li><a href="#">Automobile </a></li>
+											<li><a href="#">RPG </a></li>
+											<li><a href="#">Sport </a></li>
+                      <li><a href="#">Stratégie </a></li>
+
 										</ul>
 									</div>
 								</div>
@@ -197,7 +210,7 @@
 									</div>
 								</div>
 							</div>
-							
+
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h4 class="panel-title">
@@ -206,14 +219,14 @@
 										</a>
 									</h4>
 								</div>
-								
+
 							</div>
-							
-					
-						</div><!--/category-products-->		
+
+
+						</div><!--/category-products-->
 					</div>
 				</div>
-				
+
 				<div class="col-sm-9 padding-right">
 					<div class="features_items"><!--features_items-->
 						<h2 class="title text-center">Features Items</h2>
@@ -239,7 +252,7 @@
 											</div>
 										</div>
 								</div>
-								
+
 							</div>
 						</div>
 						<div class="col-sm-4">
@@ -261,14 +274,14 @@
 										</div>
 									</div>
 								</div>
-								
+
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center">
-										<img src="images/home/product3.jpg" alt="" />
+										<img src="images/home/product1.jpg" alt="" />
 										<h2>$56</h2>
 										<p>Easy Polo Black Edition</p>
 										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i></a>
@@ -283,14 +296,14 @@
 										</div>
 									</div>
 								</div>
-								
+
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center">
-										<img src="images/home/product4.jpg" alt="" />
+										<img src="images/home/product2.jpg" alt="" />
 										<h2>$56</h2>
 										<p>Easy Polo Black Edition</p>
 										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i></a>
@@ -306,14 +319,14 @@
 									</div>
 									<img src="images/home/new.png" class="new" alt="" />
 								</div>
-								
+
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center">
-										<img src="images/home/product5.jpg" alt="" />
+										<img src="images/home/product1.jpg" alt="" />
 										<h2>$56</h2>
 										<p>Easy Polo Black Edition</p>
 										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i></a>
@@ -329,14 +342,14 @@
 									</div>
 									<img src="images/home/sale.png" class="new" alt="" />
 								</div>
-								
+
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center">
-										<img src="images/home/product6.jpg" alt="" />
+										<img src="images/home/product2.jpg" alt="" />
 										<h2>$56</h2>
 										<p>Easy Polo Black Edition</p>
 										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i></a>
@@ -351,17 +364,17 @@
 										</div>
 									</div>
 								</div>
-								
+
 							</div>
 						</div>
-						
+
 					</div><!--features_items-->
-					
+
 							</div>
 						</div>
 					</div><!--/category-tab-->
 	</section>
-	
+
 	<footer id="footer"><!--Footer-->
 		<div class="footer-top">
 			<div class="container">
@@ -387,7 +400,7 @@
 								<h2>24 DEC 2014</h2>
 							</div>
 						</div>
-						
+
 						<div class="col-sm-3">
 							<div class="video-gallery text-center">
 								<a href="#">
@@ -402,7 +415,7 @@
 								<h2>24 DEC 2014</h2>
 							</div>
 						</div>
-						
+
 						<div class="col-sm-3">
 							<div class="video-gallery text-center">
 								<a href="#">
@@ -417,7 +430,7 @@
 								<h2>24 DEC 2014</h2>
 							</div>
 						</div>
-						
+
 						<div class="col-sm-3">
 							<div class="video-gallery text-center">
 								<a href="#">
@@ -442,7 +455,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="footer-widget">
 			<div class="container">
 				<div class="row">
@@ -504,11 +517,11 @@
 							</form>
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="footer-bottom">
 			<div class="container">
 				<div class="row">
@@ -517,11 +530,11 @@
 				</div>
 			</div>
 		</div>
-		
-	</footer><!--/Footer-->
-	
 
-  
+	</footer><!--/Footer-->
+
+
+
     <script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.scrollUp.min.js"></script>
